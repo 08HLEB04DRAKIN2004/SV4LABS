@@ -1,0 +1,88 @@
+<<<<<<< HEAD
+/* modal.css */
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+=======
+/* Стили для модального окна */
+.modal {
+>>>>>>> 4cce80ec24b3bff04be84cba279ff63f92ad5517
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+<<<<<<< HEAD
+    z-index: 9999; /* Выше всего, чтобы модальное окно было поверх всего остального контента */
+}
+
+.modal-content {
+    background-color: #fff; /* Цвет фона модального окна */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень для модального окна */
+    width: 400px; /* Ширина модального окна */
+=======
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff; /* Белый цвет для контента модального окна */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для контейнера модального окна */
+>>>>>>> 4cce80ec24b3bff04be84cba279ff63f92ad5517
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-form label {
+    margin-bottom: 8px;
+}
+
+<<<<<<< HEAD
+.modal-form .MuiTextField-root {
+    margin-bottom: 16px;
+}
+
+.modal-form .MuiButton-root {
+    margin-right: 8px;
+}
+/* modal.css */
+
+.button-group {
+    margin-top: 16px;
+}
+
+=======
+.modal-form input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.modal-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.modal-form button:hover {
+    background-color: #0056b3;
+}
+>>>>>>> 4cce80ec24b3bff04be84cba279ff63f92ad5517
